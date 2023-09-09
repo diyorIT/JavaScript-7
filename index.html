@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card card-header bg-info">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <label>F.I.SH</label>
+                    <input type="text" class="form-control" id="fish" placeholder="F.I.SH">
+                </div>
+                <div class="col-md-3">
+                    <label>O'rtoqlik uchrashuvi</label>
+                    <select id="match" class="form-control">
+                        <option value="Myu vs Tot">Myu vs Tot</option>
+                        <option value="Liv vs Mun">Liv vs Mun</option>
+                        <option value="Real vs Barca">Real vs Barca</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label>Tolov</label>
+                    <input type="number" class="form-control" placeholder="summa" id="pay">
+                </div>
+                <div class="col-md-1">
+                    <label>Qator</label>
+                    <select id="qator" class="form-control">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-dark my-4" id="add">Ro'yxatga olish</button>
+                </div>
+            </div>
+            <hr>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th>N0</th>
+                        <th>F.I.SH</th>
+                        <th>Komanda</th>
+                        <th>To'lov summasi</th>
+                        <th>Qator</th>
+                        <th>Sana</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="display">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
